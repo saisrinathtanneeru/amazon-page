@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="navbar" >
+     <div id="1"><img id="logo" src="download.png"></div>
+     <div id="2">
+        <div id="21"><p>deliver to Srinath</p></div>
+        <div id="22"><p>Kakinada 533204</p></div>
+     </div>
+     <div id="search">
+        <div id="a">All</div>
+        <div id="b"></div>
+     </div>
+     <div id="4"><p>EN</p></div>
+     <div id="5"><p>Acoount and list</p></div>
+     <div id="6"><p>Returns and orders</p></div>
+     <div id="7"><p>cart</p></div>
+   </div>
+   <div class="navbar2" >
+       <div id="0"><p>amaazon pay</p></div>
+       <div id="0"><p>giftcards</p></div>
+       <div id="0"><p>buy again</p></div>
+       <div id="0"><p>All</p></div>
+       <div id="0"><p>books</p></div>
+       <div id="0"><p>coupons</p></div>
+       <div id="0"><p>gift ideas</p></div>
+       <div id="0"><p>personal care</p></div>
+       <div id="0"><p>browse history</p></div>
+       <div id="0"><p>today deals</p></div>
+       <div id="0"><p>home improvement</p></div>
+       <div id="0"><p>Amazon basics</p></div>
+       <div id="0"><p>customer care</p></div>
+       <div id="0"><p>All</p></div>
+       <div id="0"><p>amazon.in</p></div>
+ 
+  </div>
+  <div id="main">
+ 
+  <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div>  
+</div>
+   <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div> 
+   </div>
+ <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div> 
+ </div>
+  <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div> 
+  </div>
+</div>
+</body>
+</html>
+ 
+ 
+body
+{
+  background-color: rgb(255, 255, 255);  
+}
+.navbar
+{   display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(21, 33, 51);
+}
+.navbar2
+{   display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(50, 65, 87);
+}
+ 
+#logo
+{  
+    width: 150px;
+   height:100%;
+}
+p
+{  font-size: 20px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+#search
+{
+    display: flex;
+width: 60%;
+height: 80%;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+justify-content: space-between;
+}
+#a
+{
+height:100%;
+width:5%;
+border-radius: 10px;
+background-color: rgb(211, 216, 220);
+text-align: center;
+align-content: center;
+}
+#b
+{
+    height:100%;
+    width:5%;
+    border-radius: 5px;
+    background-color: rgb(250, 185, 5);
+}
+#main
+{  height: 1000px;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+    background-image:url(image_-_2024-06-06T132027.281._CB554909636_.png);
+    background-size: contain;
+  background-repeat: no-repeat;
+}
+ 
+#card
+{  
+    margin-top: 320px;
+    height:540px;
+    width:450px;
+   background-color: rgb(255, 254, 254);
+ 
+}
+h2{
+    margin-left: 28px;
+}
+#mini1
+{  margin-left: 20px;
+    height:40%;
+    width:90%;
+    background-color: rgb(255, 255, 255);
+   margin-top: 10px;
+   display: flex;
+   justify-content:space-around;
+}
+ 
+ 
+#min1
+{
+    height: 100%;
+    width: 180px;
+ 
+    background-image:url(image.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#min2
+{
+    height: 100%;
+    width: 180px;
+ 
+    background-image:url(image\ copy.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#min3
+{
+    height: 100%;
+    width: 180px;
+ 
+    background-image:url(image\ copy\ 2.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#min4
+{
+    height: 100%;
+    width: 180px;
+    background-image:url(image\ copy\ 3.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
